@@ -1,0 +1,29 @@
+Function=xamarin_timezone_get_data
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/filipemartins/Projects/Talabrigae/Talabrigae.iOS/obj/iPhone/Debug/device-builds/iphone9.4-12.0.1/mtouch-cache/1-Link/System.dll
+Function=mono_pmip
