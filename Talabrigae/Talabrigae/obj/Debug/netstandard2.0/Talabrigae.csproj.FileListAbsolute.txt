@@ -1,0 +1,14 @@
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/bin/Debug/netstandard2.0/Talabrigae.deps.json
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/bin/Debug/netstandard2.0/Talabrigae.dll
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/bin/Debug/netstandard2.0/Talabrigae.pdb
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/Talabrigae.csprojAssemblyReference.cache
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/Talabrigae.csproj.CoreCompileInputs.cache
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/Talabrigae.AssemblyInfoInputs.cache
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/Talabrigae.AssemblyInfo.cs
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/Talabrigae.dll
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/Talabrigae.pdb
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/Pages/MyPage.xaml.g.cs
+/Users/filipemartins/Projects/Talabrigae/Talabrigae/obj/Debug/netstandard2.0/Pages/Ligacao.xaml.g.cs
