@@ -2,6 +2,8 @@
   align-items: center;
   flex-direction: column;
   background-image: url("~/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .form {
   margin-left: 30;
@@ -11,7 +13,7 @@
 }
 
 .logo {
-  margin-top: -50;
+  margin-top: 50;
   margin-bottom: 13;
   width: 150;
   height: 150;

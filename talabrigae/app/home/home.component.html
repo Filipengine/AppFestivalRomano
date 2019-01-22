@@ -1,0 +1,41 @@
+<!-- This is the home page. -->
+<!-- Look in the login folder for the login code. -->
+<FlexboxLayout class="page">
+<ActionBar class="action" title="FILIPENGINE">
+    <NavigationButton icon="res://ic_menu_black_24dp"></NavigationButton>
+    <ActionItem text="Teste" ios.position="left"></ActionItem>
+</ActionBar>
+
+<StackLayout>
+    <Label class="body m-20" [text]="message" textWrap="true"></Label>
+    <Button class="btn btn-primary" text="Log out" (tap)="logout()"></Button>
+</StackLayout>
+
+
+
+
+<RadSideDrawer tkExampleTitle tkToggleNavButton>
+    <StackLayout tkDrawerContent class="sideStackLayout">
+        <StackLayout class="sideTitleStackLayout">
+            <Label text="Navigation Menu"></Label>
+        </StackLayout>
+        <ScrollView>
+            <StackLayout class="sideStackLayout">
+                <Label text="Primary" class="sideLabel sideLightGrayLabel"></Label>
+                <Label text="Social" class="sideLabel"></Label>
+                <Label text="Promotions" class="sideLabel"></Label>
+                <Label text="Labels" class="sideLabel sideLightGrayLabel"></Label>
+                <Label text="Important" class="sideLabel"></Label>
+                <Label text="Starred" class="sideLabel"></Label>
+                <Label text="Sent Mail" class="sideLabel"></Label>
+                <Label text="Drafts" class="sideLabel"></Label>
+                <Label text="Close Drawer" color="lightgray" padding="10" style="horizontal-align: center" (tap)="onCloseDrawerTap()"></Label>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+    <StackLayout tkMainContent>
+        <Label [text]="mainContentText" textWrap="true" class="drawerContentText"></Label>
+        <Button text="OPEN DRAWER" (tap)="openDrawer()" class="drawerContentButton"></Button>
+    </StackLayout>
+</RadSideDrawer>
+</FlexboxLayout>

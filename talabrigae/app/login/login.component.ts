@@ -7,6 +7,12 @@ import { User } from "../shared/user.model";
 import { UserService } from "../shared/user.service";
 
 @Component({
+    moduleId: module.id,
+    templateUrl: "./scroll-view-vertical.component.html"
+})
+export class ScrollViewVerticalComponent { }
+
+@Component({
     selector: "app-login",
     moduleId: module.id,
     templateUrl: "./login.component.html",
@@ -22,8 +28,8 @@ export class LoginComponent {
     constructor(private page: Page, private userService: UserService, private routerExtensions: RouterExtensions) {
         this.page.actionBarHidden = true;
         this.user = new User();
-        this.user.email = "user@nativescript.org";
-        this.user.password = "password";
+        this.user.email = "filipe";
+        this.user.password = "martins";
     }
 
     toggleForm() {
@@ -32,7 +38,7 @@ export class LoginComponent {
 
     submit() {
         if (!this.user.email || !this.user.password) {
-            this.alert("Please provide both an email address and password.");
+            this.alert("Por favor, introduza os campos solicitados.");
             return;
         }
 
@@ -52,42 +58,42 @@ export class LoginComponent {
             })
             .catch(() => {
                 this.processing = false;
-                this.alert("Unfortunately we could not find your account.");
+                this.alert("Conta não encontrada.");
             });
     }
 
     register() {
         if (this.user.password != this.user.confirmPassword) {
-            this.alert("Your passwords do not match.");
+            this.alert("As passwords não coincidem.");
             return;
         }
         this.userService.register(this.user)
             .then(() => {
                 this.processing = false;
-                this.alert("Your account was successfully created.");
+                this.alert("Conta criada com sucesso.");
                 this.isLoggingIn = true;
             })
             .catch(() => {
                 this.processing = false;
-                this.alert("Unfortunately we were unable to create your account.");
+                this.alert("Conta não encontrada.");
             });
     }
 
     forgotPassword() {
         prompt({
-            title: "Forgot Password",
-            message: "Enter the email address you used to register for APP NAME to reset your password.",
+            title: "Esqueceu-se da password?",
+            message: "Entroduza o e-mail usado no acesso à aplicação Talabrigae.",
             inputType: "email",
             defaultText: "",
             okButtonText: "Ok",
-            cancelButtonText: "Cancel"
+            cancelButtonText: "Cancelar"
         }).then((data) => {
             if (data.result) {
                 this.userService.resetPassword(data.text.trim())
                     .then(() => {
-                        this.alert("Your password was successfully reset. Please check your email for instructions on choosing a new password.");
+                        this.alert("A sua password foi restaurada. Por favor, verifique o seu e-mail e siga as instruções fornecidas.");
                     }).catch(() => {
-                        this.alert("Unfortunately, an error occurred resetting your password.");
+                        this.alert("Erro ao restaurar a password.");
                     });
             }
         });
@@ -104,7 +110,7 @@ export class LoginComponent {
 
     alert(message: string) {
         return alert({
-            title: "APP NAME",
+            title: "TALABRIGAE",
             okButtonText: "OK",
             message: message
         });
